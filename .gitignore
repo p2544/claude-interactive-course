@@ -1,0 +1,12 @@
+# ไฟล์หนังสือลิขสิทธิ์ — ไม่แจกใน repo สาธารณะ (วางเองที่ webapp/public/ ถ้ามี)
+manual500p.pdf
+webapp/tools/manual-fulltext.txt
+
+# dependencies / build output
+node_modules/
+webapp/node_modules/
+webapp/dist/
+
+# misc
+*.log
+.DS_Store
