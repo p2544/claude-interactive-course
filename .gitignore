@@ -1,5 +1,5 @@
-# ไฟล์หนังสือลิขสิทธิ์ — ไม่แจกใน repo สาธารณะ (วางเองที่ webapp/public/ ถ้ามี)
-manual500p.pdf
+# ไฟล์ทำงานที่ไม่ต้องเข้า repo (PDF ตัวจริงที่แจกอยู่ที่ webapp/public/)
+/manual500p.pdf
 webapp/tools/manual-fulltext.txt
 
 # dependencies / build output

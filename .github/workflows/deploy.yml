@@ -27,13 +27,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: webapp
-      - name: Build (ไม่รวมปุ่ม/ไฟล์ PDF ต้นฉบับ)
+      - name: Build
         run: npm run build
         working-directory: webapp
-        env:
-          VITE_ENABLE_PDF: "false"
-      - name: Ensure book files are not deployed
-        run: rm -f webapp/dist/manual500p.pdf webapp/dist/manual-fulltext.txt
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
